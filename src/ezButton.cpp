@@ -29,7 +29,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <ezButton.h>
+#include "ezButton.h"
 
 ezButton::ezButton(int pin): ezButton(pin, INTERNAL_PULLUP) {};
 
